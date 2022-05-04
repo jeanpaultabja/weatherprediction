@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="WeatherDModel">
+  <name>WeatherDModel</name>
+  <uuid>bab6ccd1-ee34-49d9-9c05-5a03cd286328</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#8307c708-25d9-4414-9288-49d693530eaa"/>
+  <targetRuleProject href="../../WeatherDModel#d601ada5-2d7c-4af8-982c-7d62dddcbbcf"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["WeatherPredictionOperation"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>
