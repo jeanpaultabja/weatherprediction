@@ -60,6 +60,7 @@
     <modules>
         <module>.decisionservice</module>
         <module>WeatherDModel</module>
+        <module>WeatherData</module>
     </modules>
 
     <build>

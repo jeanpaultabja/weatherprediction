@@ -1,0 +1,23 @@
+
+# Dailyadviceresponse
+Dailyadviceresponse#concept.label = dailyadviceresponse
+Dailyadviceresponse.Dailyadviceresponse(java.lang.String)#phrase.navigation = a new {dailyadviceresponse} where {0, dailyadvicemessage}
+Dailyadviceresponse.dailyadvicemessage#phrase.action = set the dailyadvicemessage of {this} to {dailyadvicemessage}
+Dailyadviceresponse.dailyadvicemessage#phrase.navigation = {dailyadvicemessage} of {this}
+
+# Temperature
+Temperature#concept.label = temperature
+Temperature.cold#instance.label = cold
+Temperature.hot#instance.label = hot
+Temperature.warm#instance.label = warm
+
+# Weather
+Weather#concept.label = weather
+Weather.Weather(java.lang.Long,Temperature)#phrase.navigation = a new {weather} where {0, rainforecast} {1, temperature}
+Weather.rainforecast#phrase.action = set the rainforecast of {this} to {rainforecast}
+Weather.rainforecast#phrase.addition_setter = add {rainforecast} to the rainforecast of {this}
+Weather.rainforecast#phrase.navigation = {rainforecast} of {this}
+Weather.rainforecast#phrase.subtraction_setter = subtract {rainforecast} from the rainforecast of {this}
+Weather.temperature#phrase.action = set the temperature of {this} to {temperature}
+Weather.temperature#phrase.clearer = clear the temperature of {this}
+Weather.temperature#phrase.navigation = {temperature} of {this}

@@ -1,1 +1,7 @@
-{}
+{
+  "name": "Jean Paul",
+  "weather": {
+    "rainforecast": 90,
+    "temperature": "warm"
+  }
+}
