@@ -64,7 +64,7 @@
                     <Partition DefId="C2">
                         <Condition>
                             <Expression>
-                                <Param/>
+                                <Param><![CDATA[hot]]></Param>
                             </Expression>
                             <ActionSet>
                                 <Action DefId="A0">
@@ -84,7 +84,7 @@
                     <Partition DefId="C2">
                         <Condition>
                             <Expression>
-                                <Param/>
+                                <Param><![CDATA[warm]]></Param>
                             </Expression>
                             <ActionSet>
                                 <Action DefId="A0">
@@ -98,80 +98,31 @@
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <Partition DefId="C2">
-                        <Condition>
-                            <Expression>
-                                <Param/>
-                            </Expression>
-                            <ActionSet/>
-                        </Condition>
-                    </Partition>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <Partition DefId="C2">
-                        <Condition>
-                            <Expression>
-                                <Param/>
-                            </Expression>
-                            <ActionSet/>
-                        </Condition>
-                    </Partition>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <Partition DefId="C2">
-                        <Condition>
-                            <Expression>
-                                <Param/>
-                            </Expression>
-                            <ActionSet/>
-                        </Condition>
-                    </Partition>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <Partition DefId="C2">
-                        <Condition>
-                            <Expression>
-                                <Param/>
-                            </Expression>
-                            <ActionSet/>
-                        </Condition>
-                    </Partition>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <Partition DefId="C2">
-                        <Condition>
-                            <Expression>
-                                <Param/>
-                            </Expression>
-                            <ActionSet/>
-                        </Condition>
-                    </Partition>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <Partition DefId="C2">
-                        <Condition>
-                            <Expression>
-                                <Param/>
-                            </Expression>
-                            <ActionSet/>
-                        </Condition>
-                    </Partition>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <Partition DefId="C2">
-                        <Condition>
-                            <Expression>
-                                <Param/>
-                            </Expression>
-                            <ActionSet/>
-                        </Condition>
-                    </Partition>
+                    <ActionSet/>
                 </Condition>
             </Partition>
         </Contents>
@@ -179,6 +130,7 @@
     <Resources DefaultLocale="en_US">
         <ResourceSet Locale="en_US">
             <Data Name="Definitions(C0)#HeaderText"><![CDATA[Rain forecast %]]></Data>
+            <Data Name="Definitions(A0)#Width"><![CDATA[387]]></Data>
             <Data Name="Definitions(C2)#HeaderText"><![CDATA[Temperature]]></Data>
             <Data Name="Definitions(C0)[0]#HeaderText"><![CDATA[min]]></Data>
             <Data Name="Definitions(A0)#HeaderText"><![CDATA[Weather Advice]]></Data>
