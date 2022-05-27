@@ -1,7 +1,7 @@
 {
   "name": "Jean Paul",
   "weather": {
-    "rainforecast": 90,
-    "temperature": "warm"
+    "rainforecast": 10,
+    "temperature": "cold"
   }
 }
